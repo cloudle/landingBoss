@@ -1,1 +1,53 @@
-{"websites":[{"port":7020,"domain":"rivercity99.vn","status":"online","sendMail":false},{"port":7021,"domain":"goldenrivervietnam.vn","status":"online","sendMail":false},{"port":7022,"domain":"urv.vn","status":"online","sendMail":false},{"port":7023,"domain":"toyota-phumyhung.vn","status":"online","sendMail":false},{"port":7024,"domain":"anphaland.com.vn","status":"online","sendMail":false},{"port":7025,"domain":"xedaukeonhapkhau.vn","status":"online","sendMail":false},{"port":7028,"domain":"viettaste.vn","status":"offline","sendMail":true}]}
+{
+  "websites":  [
+    {
+      "port": 7020,
+      "domain": "rivercity99.vn",
+      "status": "online",
+      "sourcepath": "~/Projects/lightPage/",
+      "sendMail": false
+    },
+    {
+      "port": 7021,
+      "domain": "goldenrivervietnam.vn",
+      "sourcepath": "~/Projects/goldenRiver/",
+      "status": "online",
+      "sendMail": false
+    },
+    {
+      "port": 7022,
+      "domain": "urv.vn",
+      "sourcepath": "~/Projects/urv/",
+      "status": "online",
+      "sendMail": false
+    },
+    {
+      "port": 7023,
+      "domain": "toyota-phumyhung.vn",
+      "sourcepath": "~/Projects/toyota/",
+      "status": "online",
+      "sendMail": false
+    },
+    {
+      "port": 7024,
+      "domain": "anphaland.com.vn",
+      "sourcepath": "~/Projects/anphaland/",
+      "status": "online",
+      "sendMail": false
+    },
+    {
+      "port": 7025,
+      "domain": "xedaukeonhapkhau.vn",
+      "sourcepath": "~/Projects/xedaukeo/",
+      "status": "online",
+      "sendMail": false
+    },
+    {
+      "port": 7026,
+      "domain": "viettaste.vn",
+      "sourcepath": "~/Projects/viettaste/",
+      "status": "online",
+      "sendMail": false
+    }
+  ]
+}
