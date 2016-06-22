@@ -1,0 +1,17 @@
+{
+  "time_recheck": 10,
+  "server": "128.199.227.132",
+  "gmail": {
+      "host": "128.199.227.132",
+      "service": "Gmail",
+      "auth": {
+        "user": "lelongking789@gmail.com",
+        "pass": "Twin@@Twin"
+      }
+  },
+    "mailOption": {
+      "mailerAccount": "lelongking789@gmail.com",
+      "receiver": "liemnm@twin.vn",
+      "relatedGuys": "locnq@twin.vn, sonln@twin.vn"
+    }
+}
