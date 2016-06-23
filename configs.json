@@ -2,7 +2,6 @@
   "time_recheck": 10,
   "server": "128.199.227.132",
   "gmail": {
-      "host": "128.199.227.132",
       "service": "Gmail",
       "auth": {
         "user": "lelongking789@gmail.com",
