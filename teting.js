@@ -1,10 +1,25 @@
 var express = require('express');
-var app = express();
+var nodemailer = require('nodemailer');
 
-app.get('/', function (req, res) {
-	res.send('Hello World!');
+
+var mailSender = nodemailer.createTransport({
+	// "host": "128.199.227.132",
+	"service": "Gmail",
+	"auth": {
+		"user": "lelongking789@gmail.com",
+		"pass": "Twin@@Twin"
+	}
 });
 
-app.listen(3500, function () {
-	console.log('Example app listening on port 3500!');
+mailSender.sendMail({
+	from: 'lelongking789@gmail.com',
+	to: 'locnq@twin.vn',
+	cc: '',
+	subject: `Report CMS: Test report`,
+	html: `<div>
+              <h1>Thông báo: send Success</h1>
+            </div>`
+}, function (err, info) {
+	if (err) { console.warn('Send mail failed!',err); return; }
+	console.log('Send mail success,', info);
 });
